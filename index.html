@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatmoulette</title>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment/min/moment-with-locales.min.js"></script>
+    <script src="./assets/js/script.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/img/favicon-32x32.png"
+    />
+  </head>
+  <body>
+    <section id="chatsection">
+      <div id="chat">
+        <h1>Welcome to Chatmoulette</h1>
+        <div id="messages"></div>
+        <div id="speak">
+          <textarea id="chatbox"></textarea>
+          <button id="send">Envoyer</button>
+        </div>
+      </div>
+    </section>
+    <section id="userList">
+      <h2>Utilisateurs Connectés</h2>
+      <ul id="connectedUsers"></ul>
+    </section>
+  </body>
+</html>

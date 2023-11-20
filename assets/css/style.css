@@ -1,0 +1,101 @@
+* {
+  --sombre: #202b38;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--sombre);
+}
+
+#messages {
+  height: 600px;
+  width: 481px;
+  overflow-y: scroll;
+  border: 1px solid #cccccc9a;
+  background-color: #3041558a;
+}
+#chatbox {
+  width: 475px;
+  height: 44px;
+  color: rgb(0, 0, 0);
+}
+
+#speak #send {
+  color: rgb(0, 0, 0);
+}
+
+#chatsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#chat {
+  margin-top: 3rem;
+  height: 774px;
+  width: 481px;
+  overflow-x: hidden;
+  border: 1px solid #cccccc9a;
+  background-color: #3041558a;
+}
+
+#chat h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+textarea {
+  resize: none;
+}
+
+#usernameInput {
+  color: black;
+}
+img.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 0.05em 0 0.1em;
+  vertical-align: -0.1em;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+}
+
+#userList {
+  position: absolute;
+  right: 0%;
+  top: 13vh;
+  margin-right: 2rem;
+  height: 600px;
+  width: 481px;
+  overflow-y: scroll;
+  border: 1px solid #cccccc9a;
+  background-color: #3041558a;
+}
+
+#userList h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin: 0;
+  padding: 1rem 0;
+  border: 1px solid #cccccc9a;
+}
+
+#messages div {
+  margin: 4px;
+}
+#messages hr {
+  color: #cccccc9a;
+}
+
+#userList #connectedUsers{
+padding: 0px;
+}
+
+#userList #connectedUsers hr{
+  padding: 0px;
+  color: #cccccc9a;
+}
